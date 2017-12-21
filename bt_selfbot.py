@@ -9,8 +9,8 @@ from time import sleep
 import time, datetime, random, sys, json, codecs, threading, glob, re, string, os, requests, html5lib, subprocess, urllib, urllib2, goslate, urllib3, wikipedia, ast
 
 cl = LINEBALI.LINE()
-#cl.login(qr=True)
-cl.login(token='TOKENMU')
+cl.login(qr=True)
+#cl.login(token='TOKENMU')
 cl.loginResult()
 
 print "login success"
